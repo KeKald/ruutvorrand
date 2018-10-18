@@ -20,8 +20,6 @@ def quadratic_equation(a:int, b:int, c:int):
         x1 = (-b + calculated_sqrt) / (2 * a)
         x2 = (-b - calculated_sqrt) / (2 * a)
 
-        return x1, x2
-
     except NameError:
         print("Error occurred!")
         print("Name error!")
@@ -29,6 +27,8 @@ def quadratic_equation(a:int, b:int, c:int):
     except ValueError:
         print("Error occurred!")
         print("Value error!")
+    else:
+        return x1, x2
     
 
 # 7x² + 11x - 35 = 0
