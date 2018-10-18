@@ -27,6 +27,7 @@ def quadratic_equation(a:int, b:int, c:int):
     except ValueError:
         print("Error occurred!")
         print("Value error!")
+        
     else:
         return x1, x2
     
